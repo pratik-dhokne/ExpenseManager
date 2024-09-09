@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="#E6BABA"
+    android:layout_height="125dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type:"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:id="@+id/type_expense"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ammount"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:id="@+id/ammoun_expnense_ds"/>
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 April 2024"
+            android:gravity="center"
+            android:id="@+id/date_expense_ds"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

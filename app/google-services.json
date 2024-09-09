@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "58277991887",
+    "project_id": "expensetrackerofficial",
+    "storage_bucket": "expensetrackerofficial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58277991887:android:cb15be71c4f40b42822eba",
+        "android_client_info": {
+          "package_name": "com.pratik.expensemanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABVm0Dy_z8c6X-_7GG6LBXUFs63j8tb5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
